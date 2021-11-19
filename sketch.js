@@ -61,8 +61,8 @@ function draw() {
       handleBubbleCollision(redBubbleGroup);
     }
     if (frameCount%20===0) {
-      bulletGroup.destoryEach();
-      redBubbleGroup.destoryEach(); 
+      bulletGroup.destroyEach();
+      redBubbleGroup.destroyEach(); 
     }
 
   drawSprites();
